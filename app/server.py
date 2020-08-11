@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/file/d/1--zMp2Q0kxE-CviafMBNiA8TWs7xF0BA/view?usp=sharing'
+model_file_url = 'https://drive.google.com/uc?export=download&id=1--zMp2Q0kxE-CviafMBNiA8TWs7xF0BA'
 model_file_name = 'pneumonia02.pkl'
 classes = ['NORMAL', 'PNEUMONIA']
 path = Path(__file__).parent
